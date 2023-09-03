@@ -88,7 +88,7 @@ poetry install
 
 ### Start development server
 
-> If you're using the default template, **remember to set the OpenAI API key** in `main.py`.
+> If you're using the default template, **remember to set the OpenAI API key** in `main.py and respective **Rapid API key** (mentioned in <a href="#features">Features</a> section) in model.py file.
 
 Run the following command:
 - if installed locally
