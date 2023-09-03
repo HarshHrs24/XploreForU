@@ -1,4 +1,4 @@
-<p align="center">
+
 <strong>Mercor Textbase Hackathon</strong>
   </p>
 
@@ -56,15 +56,10 @@ Prompt – Construct a chatbot that fulfills real-user needs. In this hackathon,
 
 <!-- ABOUT THE PROJECT -->
 # About The Project
-Have you ever found yourself pondering about the "what ifs" in life? What if you had someone to guide you through every step of your journey? What if you had access to a platform that could provide you with personalized insights and recommendations for achieving your goals and maintaining a healthy lifestyle? 
 
-Well, worry no more, because today, we are proud to introduce you to a revolutionary platform that will change the way we navigate our careers and lives– XploreforU
-The problem we often face is the lack of credible guidance at crucial points in our lives. Whether we are infants or elders, we all deserve a reliable companion to help us make the right decisions and stay on track.
+Introducing XploreForU - Your Ultimate Companion and Guide
 
-Furthermore, XploreForU offers various other features and comprehensive experience for users. 
-With its job search feature, it connects job seekers with real-time job listings, ensuring they never miss an opportunity. Music lovers can explore the latest tunes and lyrics with the song search function, while movie enthusiasts can access up-to-the-minute information about films. What sets our chatbot apart is its integration of the Twilio message system, enabling users to send and receive SMS messages seamlessly. Whether it's job hunting, music discovery, movie recommendations, or direct communication, XploreForU  covers it all with efficiency and up-to-date data.
-
-One of the standout features of our chatbot is its commitment to delivering the most current and updated data. Unlike traditional chatbots, which may rely on static databases, ours leverages Rapid API to ensure that information remains accurate and relevant. This means users can trust our chatbot as a reliable source for real-time information across various domains.
+Have you ever wished for a trustworthy friend and guide to accompany you through life's twists and turns? Enter XploreForU, a groundbreaking platform that's here to transform your journey. We understand the challenges of navigating life's decisions, and our virtual assistant is your constant companion, offering personalized insights, jokes to brighten your day, and even the latest music, movies, and job openings tailored to your preferences. With real-time data from API services, we're always up-to-date, ensuring you have the support and information you need to thrive. Embrace a new way of living and explore endless possibilities with XploreForU.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,7 +122,8 @@ Path to the main.py file: examples/openai-bot/main.py # You can create a main.py
 <img src="https://drive.google.com/uc?export=view&id=13HZasg2qIx79IkPJZpEavbyjnNmNTVBv" alt="Click and Reload" width="400" height="200">
 
 ## Twilio message system
-<img src="https://drive.google.com/uc?export=view&id=13HZasg2qIx79IkPJZpEavbyjnNmNTVBv" alt="Click and Reload" width="400" height="200">
+<img src="https://github.com/HarshHrs24/XploreForU/assets/107180900/a95f89a7-21fc-4cce-a82b-e13f01ae8f53" alt="Click and Reload" width="400" height="200">
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,7 +132,13 @@ Path to the main.py file: examples/openai-bot/main.py # You can create a main.py
 <!-- Approach -->
 ## Our Approach
 
-Hellooooo
+In our approach, we've leveraged the power of the Textbase framework to create a versatile and dynamic virtual assistant, powered by cutting-edge technologies and a user-centric design philosophy. This virtual companion, XploreForU, is more than just a digital assistant; it's your friend, guide, and source of constant support throughout your journey.
+
+Our secret sauce lies in the integration of various APIs to provide real-time and up-to-date information. Whether you're looking for music recommendations, the latest movies, or job openings tailored to your role, XploreForU has got you covered. We leverage Spotify, streaming-availability, and jsearch APIs to ensure you always receive the most relevant and current suggestions.
+
+But what truly sets us apart is our commitment to personalized interactions. With OpenAI's powerful language model at its core, XploreForU engages in friendly and human-like conversations, offering emotional support, guidance, and even the ability to send heartfelt messages to your friends via Twilio integration.
+
+In a world filled with uncertainty, XploreForU is your constant companion, ready to assist you in making informed decisions and keeping you on the right track. Say goodbye to the "what ifs" in life, and embrace a brighter future with XploreForU by your side.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,13 +150,13 @@ Hellooooo
   Human-Like Conversations: No more robotic responses! XploreforU has been trained to speak like a human, with all the quirks and idiosyncrasies that come with it. It's not just about providing information;     it's about creating a genuine connection. We're talking laughter, banter, and even poking a little fun at you (in good spirits, of course) to brighten your day.
 * <strong>Job search</strong>
   <br>
-  Our chatbot is a game-changer when it comes to job hunting. By utilizing Rapid API, it connects users to an extensive database of job listings from various sources. This means that job seekers can find the most up-to-date job opportunities in their desired field, ensuring they never miss out on promising career prospects.
+  Our chatbot is a game-changer when it comes to job hunting. By utilizing Rapid API(JSearch by By OpenWeb Ninja), it connects users to an extensive database of job listings from various sources. This means that job seekers can find the most up-to-date job opportunities in their desired field, ensuring they never miss out on promising career prospects.
 * <strong>Song search</strong>
   <br>
-  Music enthusiasts will appreciate our chatbot's ability to fetch the latest songs and lyrics. With Rapid API integration, it pulls data from multiple music databases, including current charts, top tracks, and artist information. Users can enjoy the freshest tunes and discover new music as soon as it's released.
+  Music enthusiasts will appreciate our chatbot's ability to fetch the latest songs and lyrics. With Rapid API integration(Spotify by By Glavier), it pulls data from multiple music databases, including current charts, top tracks, and artist information. Users can enjoy the freshest tunes and discover new music as soon as it's released.
 * <strong>Movie search</strong>
   <br>
-  Movie buffs can rely on our chatbot for the most current information about films. Thanks to Rapid API, our chatbot taps into a vast movie database to provide real-time details about the latest releases, showtimes, reviews, and more. Users can make informed decisions about what to watch, ensuring they stay in the cinematic loop.
+  Movie buffs can rely on our chatbot for the most current information about films. Thanks to Rapid API(Streaming Availability by By Movie of the Night), our chatbot taps into a vast movie database to provide real-time details about the latest releases, showtimes, reviews, and more. Users can make informed decisions about what to watch, ensuring they stay in the cinematic loop.
 * <strong>Twilio message system</strong>
   <br>
 Our chatbot is not just about data retrieval; it also facilitates communication. With the Twilio message system integration, users can send and receive SMS messages directly through the chatbot. Whether it's sending notifications, reminders, or engaging in two-way conversations, your chatbot empowers users with a versatile communication tool.
