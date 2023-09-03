@@ -8,7 +8,7 @@ from textbase import Message
 import requests
 import re
 import subprocess
-
+import os
 # Return a list of values of content.
 def get_contents(message: Message, data_type: str):
     return [
@@ -39,7 +39,7 @@ def getSpotify(query):
         "numberOfTopResults": "5"
     }
     headers = {
-        "X-RapidAPI-Key": "7b35706f8bmsh11d7d2f85649cb1p1aea36jsn039069c405d6",
+        "X-RapidAPI-Key": f"{os.getenv('SPOTIFY_API_KEY')}",
         "X-RapidAPI-Host": "spotify23.p.rapidapi.com"
     }
     response = requests.get(url, headers=headers, params=querystring)
@@ -55,7 +55,7 @@ def getJob(query):
     url = "https://jsearch.p.rapidapi.com/search"
     querystring = {"query": f"{query}", "page": "1", "num_pages": "1"}
     headers = {
-        "X-RapidAPI-Key": "7b35706f8bmsh11d7d2f85649cb1p1aea36jsn039069c405d6",
+        "X-RapidAPI-Key": f"{os.getenv('JSEARCH_API_KEY')}",
         "X-RapidAPI-Host": "jsearch.p.rapidapi.com"
     }
     response = requests.get(url, headers=headers, params=querystring)
@@ -86,7 +86,7 @@ def getMovie(query):
         "show_type": "all"
     }
     headers = {
-        "X-RapidAPI-Key": "7b35706f8bmsh11d7d2f85649cb1p1aea36jsn039069c405d6",
+        "X-RapidAPI-Key": f"{os.getenv('MOVIE_API_KEY')}",
         "X-RapidAPI-Host": "streaming-availability.p.rapidapi.com"
     }
     response = requests.get(url, headers=headers, params=querystring)
