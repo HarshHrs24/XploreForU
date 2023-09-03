@@ -105,37 +105,37 @@ def getMovie(query):
         res=res+"\n"+pair+"\n"+"\n"+"\n"
     return res
 
-def twilio_message(phone, msg):
-    url = "https://api.twilio.com/2010-04-01/Accounts/ACc6429105cd289dcad2333aed3d7053d9/Messages.json"
+# def twilio_message(phone, msg):
+#     url = "https://api.twilio.com/2010-04-01/Accounts/ACc6429105cd289dcad2333aed3d7053d9/Messages.json"
 
-    data = {
-        "To": f"whatsapp:{phone}",
-        "From": "whatsapp:+14155238886",
-        "Body": f"{msg}",
-    }
+#     data = {
+#         "To": f"whatsapp:{phone}",
+#         "From": "whatsapp:+14155238886",
+#         "Body": f"{msg}",
+#     }
 
-    headers = {
-        "Authorization": "Basic QUNjNjQyOTEwNWNkMjg5ZGNhZDIzMzNhZWQzZDcwNTNkOTo1YjkxMmUyMzIwY2ZmYWU2NTQ1YmRhZDVkZmQyZjgzYQ=="
-    }
+#     headers = {
+#         "Authorization": "Basic QUNjNjQyOTEwNWNkMjg5ZGNhZDIzMzNhZWQzZDcwNTNkOTo1YjkxMmUyMzIwY2ZmYWU2NTQ1YmRhZDVkZmQyZjgzYQ=="
+#     }
 
-    # Create a command string for curl
-    command = [
-        "curl",
-        "-X", "POST",
-        url,
-        "--data-urlencode", f"To={data['To']}",
-        "--data-urlencode", f"From={data['From']}",
-        "--data-urlencode", f"Body={data['Body']}",
-        "--header", f"Authorization: {headers['Authorization']}",
-    ]
+#     # Create a command string for curl
+#     command = [
+#         "curl",
+#         "-X", "POST",
+#         url,
+#         "--data-urlencode", f"To={data['To']}",
+#         "--data-urlencode", f"From={data['From']}",
+#         "--data-urlencode", f"Body={data['Body']}",
+#         "--header", f"Authorization: {headers['Authorization']}",
+#     ]
 
-    # Run the curl command and capture the output
-    try:
-        result = subprocess.run(command, capture_output=True, text=True, check=True)
-        print(result.stdout)
-    except subprocess.CalledProcessError as e:
-        print("Error executing curl command:", e)
-        print(e.stderr)
+#     # Run the curl command and capture the output
+#     try:
+#         result = subprocess.run(command, capture_output=True, text=True, check=True)
+#         print(result.stdout)
+#     except subprocess.CalledProcessError as e:
+#         print("Error executing curl command:", e)
+#         print(e.stderr)
 class OpenAI:
     api_key = None
 

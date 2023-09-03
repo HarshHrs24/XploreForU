@@ -42,4 +42,3 @@ def bot():
             }, resp['status_code'], headers
         return bot_function
     return bot_message
-
