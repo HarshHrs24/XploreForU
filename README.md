@@ -160,28 +160,6 @@ In a world filled with uncertainty, XploreForU is your constant companion, ready
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- Features -->
-## Features
-* <strong>Mental health assistant</strong>
-  <br>
-  Human-Like Conversations: No more robotic responses! XploreforU has been trained to speak like a human, with all the quirks and idiosyncrasies that come with it. It's not just about providing information;     it's about creating a genuine connection. We're talking laughter, banter, and even poking a little fun at you (in good spirits, of course) to brighten your day.
-* <strong>Job search</strong>
-  <br>
-  Our chatbot is a game-changer when it comes to job hunting. By utilizing Rapid API(JSearch by By OpenWeb Ninja), it connects users to an extensive database of job listings from various sources. This means that job seekers can find the most up-to-date job opportunities in their desired field, ensuring they never miss out on promising career prospects.
-* <strong>Song search</strong>
-  <br>
-  Music enthusiasts will appreciate our chatbot's ability to fetch the latest songs and lyrics. With Rapid API integration(Spotify by By Glavier), it pulls data from multiple music databases, including current charts, top tracks, and artist information. Users can enjoy the freshest tunes and discover new music as soon as it's released.
-* <strong>Movie search</strong>
-  <br>
-  Movie buffs can rely on our chatbot for the most current information about films. Thanks to Rapid API(Streaming Availability by By Movie of the Night), our chatbot taps into a vast movie database to provide real-time details about the latest releases, showtimes, reviews, and more. Users can make informed decisions about what to watch, ensuring they stay in the cinematic loop.
-* <strong>Twilio message system</strong>
-  <br>
-Our chatbot is not just about data retrieval; it also facilitates communication. With the Twilio message system integration, users can send and receive SMS messages directly through the chatbot. Whether it's sending notifications, reminders, or engaging in two-way conversations, your chatbot empowers users with a versatile communication tool.
-  
-    
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 ## Built With
 
 ### Technology Used                                                                  
